@@ -1,9 +1,9 @@
 ![github repo badge: Language](https://img.shields.io/badge/Language-Python-181717?color=blue) 
 
-## Simplebot
+## Conversation Bot
 
-You can use this code as a foundation for more advanced discord bot functionality. It is a good starting point eliminating all needed boilerplate to create a discord bot 
+A bot with features designed to add to the conversation with replies, reactions, and more! 
 
-If you want to learn how to create a discord bot like this, check out my article [here!](https://medium.com/@danielkoganx/how-to-create-a-discord-bot-in-python-948c64d50ba6)
+If you want to learn how to create a discord bot like this, check out my article [here!](https://blog.devgenius.io/creating-a-discord-bot-that-adds-to-the-conversation-41e027943680)
 
-If you would like a cli function which creates this automatically, check out [this repo!](https://github.com/daminals/rust-discordbot-init)
+You can also check out [this list](https://medium.com/@danielkoganx/list/discord-bots-772c9a616319) and see all the content I've made on creating discord bots!
