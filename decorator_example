@@ -1,0 +1,14 @@
+# Define a decorator to add the reaction
+def react_with_checkmark(func):
+    async def wrapper(ctx, *args, **kwargs):
+        await ctx.message.add_reaction('✅') # Add checkmark emoji
+        return await func(ctx, *args, **kwargs)
+    # Make sure the wrapper keeps the original function's name
+    wrapper.__name__ = func.__name__
+    return wrapper
+
+# Use the decorator on the ping command
+@bot.command()
+@react_with_checkmark
+async def ping(ctx):
+    await ctx.send(f"Pong! {round(bot.latency * 1000)}ms")
